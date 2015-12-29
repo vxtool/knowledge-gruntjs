@@ -4,12 +4,7 @@ module.exports = function(grunt, options){
   var projectDir = options.projectDir;
 
   return {
-    options: {
-      mangle: {
-        except: ['jQuery']
-      }
-    },
-    site: {
+    example: {
       files: {
         '<%= projectDir %>structure-load-config.min.js': 
         [

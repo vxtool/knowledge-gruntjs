@@ -2,7 +2,6 @@
 
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/LICENSE.md)
 [![issues](https://img.shields.io/github/issues/knowledge-solutions/knowledge-gruntjs.svg)](https://github.com/knowledge-solutions/knowledge-gruntjs/issues)
-[![devDependency Status](https://david-dm.org/knowledge-solutions/knowledge-gruntjs/dev-status.svg)](https://david-dm.org/knowledge-solutions/knowledge-gruntjs#info=devDependencies)
 
 ## Teoria
 
