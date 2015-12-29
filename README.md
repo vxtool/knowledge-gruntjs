@@ -6,7 +6,11 @@
 ## Teoria
 
 - [Começando](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/theory/01-getting-started.md)
-- [O Gruntfile](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/theory/02-the-gruntfile.md)
+- [Configurando tarefas](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/theory/02-configuring-tasks.md)
+- [O Gruntfile](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/theory/03-sample-gruntfile.md)
+- [Criando tarefas](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/theory/04-creating-tasks.md)
+- [Criando plugins](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/theory/05-creating-plugins.md)
+- [Usando o CLI](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/theory/06-using-the-cli.md)
 
 ## Prática
 
