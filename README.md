@@ -1,102 +1,30 @@
-# Grunjs
+# GruntJS
 
-##Getting started
+[![licence mit](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/LICENSE.md)
+[![issues](https://img.shields.io/github/issues/knowledge-solutions/knowledge-gruntjs.svg)](https://github.com/knowledge-solutions/knowledge-gruntjs/issues)
 
-###Installing the CLI
-```
-npm install -g grunt-cli
-```
+## Teoria
 
-###package.json
-```
-{
-  "name": "my-project-name",
-  "version": "0.1.0",
-  "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-contrib-jshint": "~0.10.0",
-    "grunt-contrib-nodeunit": "~0.4.1",
-    "grunt-contrib-uglify": "~0.5.0"
-  }
-}
-```
+- [Começando](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/theory/01-getting-started.md)
+- [O Gruntfile](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/theory/02-the-gruntfile.md)
 
-###Installing Grunt and gruntplugins
-```
-npm install grunt --save-dev
-npm install grunt-contrib-jshint --save-dev
-```
+## Prática
 
-##The Gruntfile
-```
-module.exports = function(grunt) {
+- [Estrutura básica](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/practice/basic-structure/README.md)
+- [Estrutura com o plugin load-grunt-config](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/practice/structure-load-config/README.md)
 
-  // Project configuration.
-  grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json'),
-    uglify: {
-      options: {
-        banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
-      },
-      build: {
-        src: 'src/<%= pkg.name %>.js',
-        dest: 'build/<%= pkg.name %>.min.js'
-      }
-    }
-  });
 
-  // Load the plugin that provides the "uglify" task.
-  grunt.loadNpmTasks('grunt-contrib-uglify');
+## Referências
 
-  // Default task(s).
-  grunt.registerTask('default', ['uglify']);
+- [GruntJS](http://gruntjs.com/)
 
-};
-```
+## Log
 
-###The "wrapper" function
-```
-module.exports = function(grunt) {
-  // Do grunt-related things in here
-};
-```
+Veja o [Changelog](CHANGELOG.md) para mais detalhes.
 
-###Project and task configuration
-```
-// Project configuration.
-grunt.initConfig({
-  pkg: grunt.file.readJSON('package.json'),
-  uglify: {
-    options: {
-      banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
-    },
-    build: {
-      src: 'src/<%= pkg.name %>.js',
-      dest: 'build/<%= pkg.name %>.min.js'
-    }
-  }
-});
-```
+## Licença
 
-###Loading Grunt plugins and tasks
-```
-// Load the plugin that provides the "uglify" task.
-grunt.loadNpmTasks('grunt-contrib-uglify');
-```
+[MIT license](LICENSE.md) © Copyright 2015 [Hemerson Vianna](http://hemersonvianna.io).
 
-###Custom tasks
-```
-// Default task(s).
-grunt.registerTask('default', ['uglify']);
-```
 
-```
-module.exports = function(grunt) {
 
-  // A very basic default task.
-  grunt.registerTask('default', 'Log some stuff.', function() {
-    grunt.log.write('Logging some stuff...').ok();
-  });
-
-};
-```
