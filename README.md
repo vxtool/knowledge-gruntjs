@@ -1,7 +1,7 @@
 # GruntJS
 
-[![licence mit](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/LICENSE.md)
-[![issues](https://img.shields.io/github/issues/knowledge-solutions/knowledge-gruntjs.svg)](https://github.com/knowledge-solutions/knowledge-gruntjs/issues)
+[![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
+[![issues](https://img.shields.io/github/issues/knowledge-solutions/knowledge-gruntjs.svg?style=flat-square)](https://github.com/knowledge-solutions/knowledge-gruntjs/issues)
 
 ## Teoria
 
