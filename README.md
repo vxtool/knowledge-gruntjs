@@ -3,22 +3,16 @@
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
 [![issues](https://img.shields.io/github/issues/knowledge-solutions/knowledge-gruntjs.svg?style=flat-square)](https://github.com/knowledge-solutions/knowledge-gruntjs/issues)
 
-## Teoria
+## Theory
 
-- [Começando](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/theory/01-getting-started.md)
-- [Configurando tarefas](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/theory/02-configuring-tasks.md)
-- [O Gruntfile](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/theory/03-sample-gruntfile.md)
-- [Criando tarefas](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/theory/04-creating-tasks.md)
-- [Criando plugins](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/theory/05-creating-plugins.md)
-- [Usando o CLI](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/theory/06-using-the-cli.md)
+- [Portuguese - Brazil](theory/pt_BR/)
 
-## Prática
+## Practice
 
-- [Estrutura básica](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/practice/basic-structure/README.md)
-- [Estrutura com o plugin load-grunt-config](https://github.com/knowledge-solutions/knowledge-gruntjs/blob/master/practice/structure-load-config/README.md)
+- [Basic Structure](practice/basic-structure/)
+- [Structure with the plugin load config](practice/structure-load-config/)
 
-
-## Referências
+## References
 
 - [GruntJS](http://gruntjs.com/)
 
