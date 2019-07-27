@@ -1,7 +1,11 @@
 # GruntJS
 
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
-[![issues](https://img.shields.io/github/issues/descco-tools/knowledge-gruntjs.svg?style=flat-square)](https://github.com/descco-tools/knowledge-gruntjs/issues)
+[![GitHub issues](https://img.shields.io/github/issues/org-victorinox/knowledge-gruntjs.svg)](https://github.com/org-victorinox/knowledge-gruntjs/issues)
+![GitHub Release Date](https://img.shields.io/github/release-date/org-victorinox/knowledge-gruntjs.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/org-victorinox/knowledge-gruntjs.svg)
+![GitHub repo size](https://img.shields.io/github/repo-size/org-victorinox/knowledge-gruntjs.svg)
+![GitHub All Releases](https://img.shields.io/github/downloads/org-victorinox/knowledge-gruntjs/total.svg)
 
 ## Theory
 
@@ -30,7 +34,7 @@
 
 ## Log
 
-Check [Releases](https://github.com/descco-tools/knowledge-gruntjs/releases) for detailed changelog.
+Check [Releases](https://github.com/org-victorinox/knowledge-gruntjs/releases) for detailed changelog.
 
 ## License
 
